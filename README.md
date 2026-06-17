@@ -16,8 +16,9 @@ This repository contains my cybersecurity learning journey.
 - Social Engineering
 - MFA
 - Access Control
+-  Encryption
   ## Upcoming Topics
-- Encryption
+
 - Web Security
 - Network Security
 - Security Operations
