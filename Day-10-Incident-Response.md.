@@ -1,0 +1,319 @@
+# Day 10: Incident Response
+
+> Understanding how organizations identify, manage, contain, and recover from cybersecurity incidents.
+
+---
+
+# 🎯 Learning Objectives
+
+- Understand Incident Response (IR).
+- Learn the Incident Response Life Cycle.
+- Understand the importance of Incident Response.
+- Learn different types of security incidents.
+- Explore the role of SOC and SIEM.
+- Learn Incident Response best practices.
+
+---
+
+# 📖 Introduction
+
+No organization is completely safe from cyber attacks. Even with strong security measures in place, incidents such as malware infections, phishing attacks, ransomware, or data breaches can still occur.
+
+The goal of Incident Response is not only to stop the attack but also to minimize damage, recover systems, and prevent similar incidents in the future.
+
+A well-planned Incident Response process helps organizations respond quickly, reduce financial losses, and maintain business continuity.
+
+---
+
+# 🚨 What is Incident Response?
+
+Incident Response (IR) is a structured process used to identify, investigate, contain, eliminate, and recover from cybersecurity incidents.
+
+The main objective is to reduce the impact of cyber attacks while restoring normal business operations as quickly as possible.
+
+---
+
+# Why is Incident Response Important?
+
+Incident Response helps organizations to:
+
+- Detect attacks quickly.
+- Minimize business disruption.
+- Reduce financial losses.
+- Protect sensitive information.
+- Recover systems efficiently.
+- Prevent future incidents.
+
+---
+
+# What is a Security Incident?
+
+A Security Incident is any event that compromises the confidentiality, integrity, or availability (CIA Triad) of information systems.
+
+Examples include:
+
+- Malware Infection
+- Phishing Attack
+- Ransomware Attack
+- Data Breach
+- Insider Threat
+- Unauthorized Access
+- Denial of Service (DoS/DDoS)
+- Web Server Compromise
+
+---
+
+# Incident Response Life Cycle
+
+The National Institute of Standards and Technology (NIST) defines six major phases of Incident Response.
+
+---
+
+## 1. Preparation
+
+Preparation involves creating policies, procedures, and tools before an incident occurs.
+
+Activities include:
+
+- Security awareness training
+- Incident Response Plan
+- Backup strategy
+- Security tools deployment
+- Access control policies
+- Regular security testing
+
+Preparation is considered the most important phase because it determines how effectively an organization responds to incidents.
+
+---
+
+## 2. Identification
+
+The goal is to determine whether a security incident has occurred.
+
+Security teams analyze:
+
+- Alerts
+- Logs
+- User reports
+- Antivirus notifications
+- SIEM alerts
+
+Questions asked:
+
+- What happened?
+- When did it happen?
+- Which systems are affected?
+
+---
+
+## 3. Containment
+
+Once the incident is confirmed, the next step is to prevent it from spreading.
+
+Examples:
+
+- Disconnect infected systems
+- Block malicious IP addresses
+- Disable compromised accounts
+- Isolate affected servers
+
+Containment minimizes damage while investigation continues.
+
+---
+
+## 4. Eradication
+
+After containment, security teams remove the root cause of the incident.
+
+Activities include:
+
+- Remove malware
+- Delete malicious files
+- Patch vulnerabilities
+- Reset passwords
+- Remove unauthorized accounts
+
+---
+
+## 5. Recovery
+
+Recovery restores normal business operations.
+
+Activities include:
+
+- Restore systems from backups
+- Verify system integrity
+- Monitor systems
+- Reconnect isolated devices
+
+Recovery ensures systems operate safely before returning to production.
+
+---
+
+## 6. Lessons Learned
+
+After the incident is resolved, the organization reviews what happened.
+
+Questions include:
+
+- How did the attack occur?
+- What worked well?
+- What failed?
+- How can future attacks be prevented?
+
+This phase improves future Incident Response plans.
+
+---
+
+# Security Operations Center (SOC)
+
+A Security Operations Center (SOC) is a centralized team responsible for continuously monitoring and responding to security incidents.
+
+SOC analysts:
+
+- Monitor alerts
+- Investigate incidents
+- Respond to attacks
+- Perform threat hunting
+- Document incidents
+
+Large organizations usually operate SOCs 24/7.
+
+---
+
+# Security Information and Event Management (SIEM)
+
+SIEM is a security solution that collects and analyzes logs from multiple devices.
+
+Functions include:
+
+- Log Collection
+- Event Correlation
+- Threat Detection
+- Alert Generation
+- Security Monitoring
+- Compliance Reporting
+
+Popular SIEM tools include:
+
+- Splunk
+- Microsoft Sentinel
+- IBM QRadar
+- ArcSight
+- Elastic Security
+
+---
+
+# Common Incident Response Tools
+
+- SIEM
+- Endpoint Detection & Response (EDR)
+- Antivirus
+- Firewalls
+- Intrusion Detection Systems (IDS)
+- Intrusion Prevention Systems (IPS)
+- Digital Forensics Tools
+
+---
+
+# Real-Life Example
+
+An employee accidentally opens a malicious email attachment.
+
+The malware begins encrypting files.
+
+The SOC receives alerts from the SIEM.
+
+Incident Response Team actions:
+
+1. Identify the infected computer.
+2. Disconnect it from the network.
+3. Remove the ransomware.
+4. Restore files from backups.
+5. Investigate how the attack happened.
+6. Conduct employee awareness training.
+
+Business operations resume with minimal damage.
+
+---
+
+# Incident Response Best Practices
+
+- Create an Incident Response Plan.
+- Regularly train employees.
+- Maintain secure backups.
+- Monitor systems continuously.
+- Keep software updated.
+- Conduct regular security audits.
+- Test Incident Response procedures.
+- Document every incident.
+
+---
+
+# 📌 Key Takeaways
+
+- Incident Response minimizes damage from cyber attacks.
+- Preparation is the foundation of effective Incident Response.
+- The Incident Response Life Cycle has six phases.
+- SOC continuously monitors security events.
+- SIEM collects and analyzes security logs.
+- Lessons Learned improve future security posture.
+
+---
+
+# ❓ Interview Questions
+
+### 1. What is Incident Response?
+
+Incident Response is the structured process of identifying, containing, eliminating, and recovering from cybersecurity incidents.
+
+---
+
+### 2. What are the six phases of Incident Response?
+
+- Preparation
+- Identification
+- Containment
+- Eradication
+- Recovery
+- Lessons Learned
+
+---
+
+### 3. What is a SOC?
+
+A Security Operations Center (SOC) is a team responsible for monitoring, detecting, investigating, and responding to cybersecurity incidents.
+
+---
+
+### 4. What is SIEM?
+
+Security Information and Event Management (SIEM) is a security solution that collects, analyzes, and correlates security logs to detect threats.
+
+---
+
+### 5. Why is Preparation important in Incident Response?
+
+Preparation ensures that organizations have the necessary tools, policies, and trained personnel to respond effectively to cyber attacks.
+
+---
+
+### 6. What happens during the Containment phase?
+
+The affected systems are isolated to prevent the attack from spreading further.
+
+---
+
+### 7. Name some popular SIEM tools.
+
+- Splunk
+- Microsoft Sentinel
+- IBM QRadar
+- ArcSight
+- Elastic Security
+
+---
+
+# 📝 Summary
+
+Today I learned about Incident Response, a structured process that helps organizations detect, respond to, and recover from cybersecurity incidents. I studied the six phases of the Incident Response Life Cycle, the responsibilities of a Security Operations Center (SOC), the role of Security Information and Event Management (SIEM), and best practices that organizations follow to minimize the impact of cyber attacks.
